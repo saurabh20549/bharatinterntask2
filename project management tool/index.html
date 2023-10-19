@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Project Management Tool</h1>
+    </header>
+
+    <main>
+        <section class="user-list">
+            <h2>Users</h2>
+            <ul id="user-list">
+                
+            </ul>
+        </section>
+
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <ul id="task-list">
+                
+            </ul>
+        </section>
+    </main>
+    <div class="big-div">
+        <section class="messages">
+            <h2>Messages</h2>
+            <div id="message-box"></div>
+            <div class="message-input-container">
+                <input type="text" id="message-input" placeholder="Type a message...">
+                <button id="send-message">Send</button>
+            </div>
+            
+            <form id="message-form">
+                <div class="small-div">
+                    <label for="from-user" style="color: white;">From:</label>
+                    <select id="from-user" required>
+                        
+                    </select><br>
+
+                    <label for="to-user" style="color: white;">To:</label>
+                    <select id="to-user" required>
+                        
+                    </select><br>
+                </div>
+                <label for="message-text" style="color: white;">Message:</label>
+                <input type="text" id="message-text" required><br>
+
+                <button type="submit">Send</button>
+            </form>
+
+        </section>
+
+        <section class="controls">
+            <h2>Controls</h2>
+            <input type="text" id="change-user-input" placeholder="Enter User Name">
+            <button id="change-user">Change User</button>
+            <div id="assigned-tasks" style="width: 97%; margin-top: 13px;">
+                <form id="assign-task-form">
+                    <h2>Assign Task</h2>
+                    <label for="task" style="color: white;">Task:</label>
+                    <select id="task" required>
+                        
+                    </select><br>
+
+                    <label for="assignee" style="color: white;">Assignee:</label>
+                    <select id="assignee" required>
+                        
+                    </select><br>
+
+                    <label for="assigner" style="color: white;">Assigner:</label>
+                    <select id="assigner" required>
+                        
+                    </select><br>
+
+                    <button type="submit">Assign Task</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

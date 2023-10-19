@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: #2b373d;
+}
+header {
+    background-color: #445760;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 2.2rem;
+    font-family: ubuntu;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+main section {
+    flex: 1;
+    margin: 1em;
+    padding: 1em;
+    background-color: #445760;
+    border-radius: 10px;
+}
+
+main section h2{
+    color: white;
+}
+.user-list, .task-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+li:hover {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 1em;
+}
+
+.assign-button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    margin-right: 1%;
+}
+
+button:hover, .assign-button:hover {
+    background-color: #555;
+}
+
+.big-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.big-div section{
+    flex: 1;
+    margin: 1em;
+    padding: 1em;
+    background-color: #445760;
+    border-radius: 10px;
+}
+
+.messages, .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: #445760;
+    border-radius: 10px;
+}
+
+.messages h2{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.controls h2{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#message-box {
+    width: 95%;
+    border: 1px solid #ccc;
+    padding: 1em;
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.message-input-container{
+    display: none;
+}
+
+#change-user-input {
+    width: 95%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+#change-user {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+label, select, input {
+    margin-bottom: 0.5em;
+    display: block;
+    width: 100%;
+}
+
+select, input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.list-group-item:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+

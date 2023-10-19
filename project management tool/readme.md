@@ -1,0 +1,1 @@
+product management tool: the page that provides a framework of social media site where user can communicate with one another along with the functionality to assign task to others
